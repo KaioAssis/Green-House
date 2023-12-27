@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #c5fd9cd7;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  
+
+}
+
+header > nav {
+    font-size: 0.5em;
+    text-align: left;
+    background-color: rgb(#758B65);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px; 
+    margin: -5px;
+}
+
+header > nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    border-right: 2px solid white; /* Adicionando borda direita nos links */
+    padding-right: 10px; /* Espaçamento interno para separar os links */
+}
+
+header > nav a:last-child {
+    border-right: none; /* Remove a borda direita do último link */
+}
+
+header > nav a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+main h1{
+    background-color: #a7b3ffcb;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    
+}
